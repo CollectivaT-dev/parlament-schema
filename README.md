@@ -9,10 +9,10 @@ To launch the validator, the only requisite is lxml.
 ```
 virtualenv --python=python3 venv
 source venv/bin/activate
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
-After the installation simply
+After the installation simply:
 
 ```
 python validate.py parlament.xml parlament.xsd
