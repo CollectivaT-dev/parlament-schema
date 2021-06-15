@@ -1,0 +1,70 @@
+<source xmlns="https://parlament.cat">
+  <session type="ple" description="ordinaria" date="2020-11-05" id="2020_11_05_123796341">
+    <session_title>Ple del Parlament. 05/11/2020</session_title>
+    <transcription_url>https://www.parlament.cat/document/dspcp/123796341.pdf</transcription_url>
+    <sequence sequence_start="2020-11-05T09:03:00">
+      <sequence_title>Proposta de resolució sobre el Baix Penedès (250-01524/12)</sequence_title>
+      <intervention intervention_start="2020-11-05T09:03:00" intervention_duration="PT5S">
+        <intervention_title>Es reprèn la sessió</intervention_title>
+        <speaker>M. H. Sr. Roger Torrent Ramió</speaker>
+        <speaker_title>Mesa del Parlament</speaker_title>
+        <media_url media_start="2020-11-05T09:03:00">https://media.watchity.com/canalparlament/videos/459058_257320__65_3PLE/c46354ff-b827-4986-a2a4-691814f69cdb/459058-257320-65-3ple_1080p.mp4</media_url>
+      </intervention>
+      <intervention intervention_start="2020-11-05T09:03:05" intervention_duration="PT8M17S">
+        <intervention_title>Presentació</intervention_title>
+        <speaker>I. Sr. José María Cano Navarro</speaker>
+        <speaker_title>Grup Parlamentari de Ciutadans</speaker_title>
+        <media_url media_start="2020-11-05T09:03:00">https://media.watchity.com/canalparlament/videos/459058_257320__65_3PLE/c46354ff-b827-4986-a2a4-691814f69cdb/459058-257320-65-3ple_1080p.mp4</media_url>
+      </intervention>
+    </sequence>
+    <sequence sequence_start="2020-11-05T10:12:00">
+      <sequence_title>Moció subsegüent a la interpel·lació al Govern sobre l'atenció a la gent gran (302-00249/12)</sequence_title>
+      <intervention intervention_start="2020-11-05T10:12:25" intervention_duration="PT5M33S">
+        <intervention_title>Presentació</intervention_title>
+        <speaker>I. Sr. Raúl Moreno Montaña</speaker>
+        <speaker_title>Grup Parlamentari Socialistes i Units per Avançar</speaker_title>
+        <media_url media_start="2020-11-05T09:03:00">https://media.watchity.com/canalparlament/videos/459058_257320__65_3PLE/c46354ff-b827-4986-a2a4-691814f69cdb/459058-257320-65-3ple_1080p.mp4</media_url>
+      </intervention>
+      <intervention intervention_start="2020-11-05T10:17:58" intervention_duration="PT5M43S">
+        <intervention_title>Esmenes, torn a favor</intervention_title>
+        <speaker>I. Sra. Yolanda López Fernández</speaker>
+        <speaker_title>Grup Parlamentari de Catalunya en Comú Podem</speaker_title>
+        <media_url media_start="2020-11-05T09:03:00">https://media.watchity.com/canalparlament/videos/459058_257320__65_3PLE/c46354ff-b827-4986-a2a4-691814f69cdb/459058-257320-65-3ple_1080p.mp4</media_url>
+      </intervention>
+    </sequence>
+  </session>
+  <session type="ple" description="ordinaria" date="2017-07-13" id="2017_07_13_228524">
+    <session_title>Ple del Parlament. 13/07/2017</session_title>
+    <transcription_url>https://www.parlament.cat/document/dspcp/228524.pdf</transcription_url>
+    <sequence sequence_start="2017-07-13T09:02:00">
+      <sequence_title>Interpel·lació al Govern sobre la política fiscal i la protecció de dades (300-00192/11)</sequence_title>
+      <intervention intervention_start="2017-07-13T09:00:42" intervention_duration="PT11S">
+        <intervention_title>Es reprèn la sessió</intervention_title>
+        <speaker>M. H. Sra. Carme Forcadell i Lluís</speaker>
+        <speaker_title>Mesa del Parlament</speaker_title>
+        <media_url media_start="2017-07-13T09:00:42">https://www.parlament.cat/vod/2017/afc99abfd6670d09b8c9.mp4</media_url>
+      </intervention>
+      <intervention intervention_start="2017-07-13T09:02:24" intervention_duration="PT10M58S">
+        <intervention_title>Formulació</intervention_title>
+        <speaker>I. Sr. Carlos Carrizosa Torres</speaker>
+        <speaker_title>Grup Parlamentari de Ciutadans</speaker_title>
+        <media_url media_start="2017-07-13T09:02:24">https://www.parlament.cat/vod/2017/3470984fb33a2df8ae3c.mp4</media_url>
+      </intervention>
+    </sequence>
+    <sequence sequence_start="2017-07-13T09:34:00">
+      <sequence_title>Interpel·lació al Govern sobre l'acció del Govern de l'onzena legislatura (300-00193/11)</sequence_title>
+      <intervention intervention_start="2017-07-13T09:34:28" intervention_duration="PT10M58S">
+        <intervention_title>Formulació</intervention_title>
+        <speaker>I. Sr. Fernando de Páramo Gómez</speaker>
+        <speaker_title>Grup Parlamentari de Ciutadans</speaker_title>
+        <media_url media_start="2017-07-13T09:34:28">https://www.parlament.cat/vod/2017/48ba4a3c31bbb0361673.mp4</media_url>
+      </intervention>
+      <intervention intervention_start="2017-07-13T09:45:27" intervention_duration="PT10M34S">
+        <intervention_title>Resposta</intervention_title>
+        <speaker>H. Sra. Neus Munté i Fernàndez</speaker>
+        <speaker_title>Departament de la Presidència</speaker_title>
+        <media_url media_start="2017-07-13T09:45:27">https://www.parlament.cat/vod/2017/b3bdbc8285238f72370b.mp4</media_url>
+      </intervention>
+    </sequence>
+  </session>
+</source>
