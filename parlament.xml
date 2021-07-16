@@ -32,6 +32,17 @@
         <media_url media_start="2020-11-05T09:03:00">https://media.watchity.com/canalparlament/videos/459058_257320__65_3PLE/c46354ff-b827-4986-a2a4-691814f69cdb/459058-257320-65-3ple_1080p.mp4</media_url>
       </intervention>
     </sequence>
+    <transcriptions type="en brut">
+      <transcription_url order="1"> https://www.parlament.cat/document/transcripcio/201952825.pdf </transcription_url>
+      <transcription_url order="2"> https://www.parlament.cat/document/transcripcio/201952826.pdf </transcription_url>
+    </transcriptions>
+    <transcriptions type="automatic">
+      <transcription_url order="1"> https://www.parlament.cat/api/transcripcio/2020110501 </transcription_url>
+      <transcription_url order="2"> https://www.parlament.cat/api/transcripcio/2020110502 </transcription_url>
+      <transcription_url order="3"> https://www.parlament.cat/api/transcripcio/2020110503 </transcription_url>
+      <transcription_url order="4"> https://www.parlament.cat/api/transcripcio/2020110504 </transcription_url>
+      <transcription_url order="5"> https://www.parlament.cat/api/transcripcio/2020110505 </transcription_url>
+    </transcriptions>
   </session>
   <session type="ple" description="ordinaria" date="2017-07-13" id="2017_07_13_228524">
     <session_title>Ple del Parlament. 13/07/2017</session_title>
