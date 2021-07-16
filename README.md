@@ -33,14 +33,14 @@ source
 
 Aquesta estructura bàsica és gairebé igual a la jerarquia de DOM de la plataforma de parlament.cat actual amb dues excepcions:
 
-*media_url:*
+### media_url:
 El primer; l'esquema està optimitzat per les dues estructures diferents de la pàgina web vella i la pàgina web nova; amb l'objectiu de facilitar l'extracció d'una intervenció especifica cercada.
 
 La diferencia de les estructures noves i velles del parlament.cat és la quantitat de fitxers d'àudio per sessió. En la versió vella, hi havia un enregistrament per intervenció, en canvi ara parlament.cat proporciona els enregistraments sencers (podrien ser múltiples però no més de 3 o 4) de cada sessió, i per cada intervenció desitjada la plataforma ensenya la part de l’enregistrament pertinent.
 
 Per assegurar la consistència entre les estructures diferents del parlament.cat, l'url del fitxer d'àudio apareix dins de l'element "intervention." Aquesta manera els urls de la vella estructura puguin aparèixer al nivell adequat d'esquema. Per les intervencions de la nova estructura, com que els urls apunten a un vídeo llarg de la sessió especifica, aquesta informació repeteix per cada intervenció pertinent. Però mitjançant les metadades de data i temps d'inici i durada de la intervenció, i la data i hora d'inici de l'enregistrament, que apareixen dins de l'element "intervention," es pot generar els talls/segments pertinents senzillament, sense accedir els elements pares. 
 
-*transcriptions:*
+### transcriptions:
 El segon element que no compleix amb l'estructura del DOM de parlament.cat és els urls de les transcripcions; que són en dos llocs diferents.
 
 El pdf del diari de la sessió, ´diari_url´, és l'element fill de la "session" i és un element obligatori. A més hi ha elements de ´transcriptions´ que poden tenir els "types" ´en brut´ o ´automatica´. El type ´en brut´ fa referencia a les transcripcions publicades temporalment a parlament.cat, abans de la publicació del diari final i editat. Com que no està decidit encara la disponibilitat continua de les transcripcions en brut o automàtiques, aquests elements no són obligatoris.
