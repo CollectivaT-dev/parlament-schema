@@ -1,7 +1,7 @@
 <source xmlns="https://parlament.cat">
   <session type="ple" description="ordinaria" date="2020-11-05" id="2020_11_05_123796341">
     <session_title>Ple del Parlament. 05/11/2020</session_title>
-    <transcription_url>https://www.parlament.cat/document/dspcp/123796341.pdf</transcription_url>
+    <diari_url>https://www.parlament.cat/document/dspcp/123796341.pdf</diari_url>
     <sequence sequence_start="2020-11-05T09:03:00">
       <sequence_title>Proposta de resolució sobre el Baix Penedès (250-01524/12)</sequence_title>
       <intervention intervention_start="2020-11-05T09:03:00" intervention_duration="PT5S">
@@ -35,7 +35,7 @@
   </session>
   <session type="ple" description="ordinaria" date="2017-07-13" id="2017_07_13_228524">
     <session_title>Ple del Parlament. 13/07/2017</session_title>
-    <transcription_url>https://www.parlament.cat/document/dspcp/228524.pdf</transcription_url>
+    <diari_url>https://www.parlament.cat/document/dspcp/228524.pdf</diari_url>
     <sequence sequence_start="2017-07-13T09:02:00">
       <sequence_title>Interpel·lació al Govern sobre la política fiscal i la protecció de dades (300-00192/11)</sequence_title>
       <intervention intervention_start="2017-07-13T09:00:42" intervention_duration="PT11S">
