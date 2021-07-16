@@ -36,7 +36,7 @@
       <transcription_url order="1"> https://www.parlament.cat/document/transcripcio/201952825.pdf </transcription_url>
       <transcription_url order="2"> https://www.parlament.cat/document/transcripcio/201952826.pdf </transcription_url>
     </transcriptions>
-    <transcriptions type="automatic">
+    <transcriptions type="automatica">
       <transcription_url order="1"> https://www.parlament.cat/api/transcripcio/2020110501 </transcription_url>
       <transcription_url order="2"> https://www.parlament.cat/api/transcripcio/2020110502 </transcription_url>
       <transcription_url order="3"> https://www.parlament.cat/api/transcripcio/2020110503 </transcription_url>
