@@ -6,57 +6,42 @@
         <xs:element name="session" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
+              <xs:element name="id" type="xs:string" />
+              <xs:element name="type" type="xs:string" />
+              <xs:element name="description" type="xs:string" />
+              <xs:element name="date" type="xs:date" />
               <xs:element name="session_title" type="xs:string" />
               <xs:element name="diari_url" type="xs:string" />
               <xs:element name="sequence" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
                     <xs:element name="sequence_title" type="xs:string" />
+                    <xs:element name="sequence_start" type="xs:dateTime" />
                     <xs:element name="intervention" maxOccurs="unbounded">
                       <xs:complexType>
                         <xs:sequence>
+                          <xs:element name="intervention_start" type="xs:dateTime" />
+                          <xs:element name="intervention_duration" type="xs:duration" />
                           <xs:element name="intervention_title" type="xs:string" />
                           <xs:element name="speaker" type="xs:string" />
                           <xs:element name="speaker_title" type="xs:string" />
-                          <xs:element name="media_url">
-                            <xs:complexType>
-                              <xs:simpleContent>
-                                <xs:extension base="xs:string" >
-                                  <xs:attribute name="media_start" type="xs:dateTime" use="required" />
-                                </xs:extension>
-                              </xs:simpleContent>
-                            </xs:complexType>
-                          </xs:element>
+                          <xs:element name="media_url" type="xs:string" />
+                          <xs:element name="media_start" type="xs:dateTime" />
                         </xs:sequence>
-                        <xs:attribute name="intervention_start" type="xs:dateTime" use="required"/>
-                        <xs:attribute name="intervention_duration" type="xs:duration" use="required" />
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
-                  <xs:attribute name="sequence_start" type="xs:dateTime" use="required"/>
                 </xs:complexType>
               </xs:element>
               <xs:element name="transcriptions" minOccurs="0" maxOccurs="2">
                 <xs:complexType>
                   <xs:sequence>
-                  <xs:element name="transcription_url" minOccurs="0" maxOccurs="unbounded">
-                    <xs:complexType>
-                      <xs:simpleContent>
-                        <xs:extension base="xs:string" >
-                          <xs:attribute name="order" type="xs:integer" use="required"/>
-                        </xs:extension>
-                      </xs:simpleContent>
-                    </xs:complexType>
-                  </xs:element>
+                    <xs:element name="transcription_type" type="xs:string" />
+                    <xs:element name="transcription_url" minOccurs="0" maxOccurs="unbounded" />
                   </xs:sequence>
-                  <xs:attribute name="type" type="xs:string" use="required" />
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="type" type="xs:string" use="required" />
-            <xs:attribute name="description" type="xs:string" use="required" />
-            <xs:attribute name="date" type="xs:date" use="required" />
-            <xs:attribute name="id" type="xs:string" use="required" />
           </xs:complexType>
         </xs:element>
       </xs:sequence>
